@@ -1,0 +1,46 @@
+/*
+grey - bfbabe
+white - f1f2f0
+torquise - 558a86
+maroon - a63e14
+*/
+
+body {
+  background-color: #bfbabe;
+}
+
+.coin-table {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.coin-table a {
+  text-decoration: none;
+}
+
+.coin-table-row {
+  font-size: 1em;
+  background-color: #558a86;
+  border: 1px solid #f1f2f0;
+  color: #f1f2f0;
+  padding: 10px 20px;
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.4s easeOut;
+  text-decoration: none;
+}
+
+.coin-table-row:hover {
+  background-color: #273f3d;
+}
+
+.coin-table-row-name {
+
+}
+
+.coin-table-row-volume {
+
+}
